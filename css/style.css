@@ -99,8 +99,6 @@ section{
     color: var(--main-color);
 }
 
-/* header */
-
 .header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -145,10 +143,6 @@ section{
     display: none;
 }
 
-/* end */
-
-/* home */
-
 .home{
     min-height: 100vh;
     display: flex;
@@ -173,10 +167,6 @@ section{
     text-transform: uppercase;
     padding-bottom: 2rem;
 }
-
-/* end */
-
-/* banner */
 
 .banner{
     position: relative;
@@ -255,10 +245,6 @@ section{
 .banner .hex:hover .shape .content{
     opacity: 1;
 }
-
-/* end */
-
-/* home-menu */
 
 .home-menu .box-container{
     display: grid;
@@ -348,10 +334,6 @@ section{
     color: var(--main-color);
 }
 
-/* end */
-
-/* about */
-
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -411,10 +393,6 @@ section{
     color: #666;
 }
 
-/* end */
-
-/* gallery */
-
 .gallery .box-container{
     columns: 3 25rem;
     column-gap: 1.5rem;
@@ -429,11 +407,6 @@ section{
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
-
-
-/* end */
-
-/* category */
 
 .category .box-container{
     display: grid;
@@ -459,10 +432,6 @@ section{
 .category .box-container .box:hover h3{
     color: var(--primary-color);
 }
-
-/* end */
-
-/* menu */
 
 .menu .box-container{
     display: grid;
@@ -552,10 +521,6 @@ section{
     display: inline-block;
 }
 
-/* end */
-
-/* blog */
-
 .blogs .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -620,9 +585,6 @@ section{
     line-height: 2;
     color: var(--black);
 }
-/* end */
-
-/* booking */
 
 .booking .book-form{
     padding: 2rem;
@@ -671,10 +633,6 @@ section{
     background: var(--primary-color);
     color: var(--main-color);
 }
-
-/* end */
-
-/* footer */
 
 .footer{
     background: #ffffff;
